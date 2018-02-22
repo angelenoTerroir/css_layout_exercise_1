@@ -1,56 +1,47 @@
-* {
-	font-size: 0;
+main {
+  font-size: 0;
 }
 
-body {
-	padding: 60px;
-}
 
 .bigbox {
-	background-color: rgba(0, 3, 55, .3);
-	width: 800px;
-	height: 500px;
-	margin-left: auto;
-	margin-right: auto;
-
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
 }
 
-.green {
-	background-color: green;
-	border: 1px solid black;
-	width: 50%;
-	height: 200px;
-	display: inline-block;
+.box {
+  border: 1px solid black;
+  display: inline-block;
 }
 
-.blue {
-	background-color: blue;
-	border: 1px solid black;
-	width: 50%;
-	height: 200px;
-	display: inline-block;
+.half {
+  width: 50%;
+  height: 200px;
 }
 
-.gray {
-	background-color: gray;
-	border: 1px solid black;
-	width: 33.333%;
-	height: 300px;
-	display: inline-block;
+.third {
+  width: 33.33%;
+  height: 300px;
 }
 
 .black {
-	background-color: black;
-	border: 1px solid black;
-	width: 33.333%;
-	height: 300px;
-	display: inline-block;
+  background-color: black;
+}
+
+.green {
+  background-color: green;
+}
+
+.grey {
+  background-color: grey;
+}
+
+.blue {
+  background-color: blue;
 }
 
 .orange {
-	background-color: orange;
-	border: 1px solid black;
-	width: 33.3333%;
-	height: 300px;
-	display: inline-block;
+  background-color: orange
 }
+
