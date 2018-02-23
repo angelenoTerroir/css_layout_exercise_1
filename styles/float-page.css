@@ -10,3 +10,38 @@ main {
   margin-left: auto;
   margin-right: auto;
 }
+
+h1, h3, p {
+	line-height: 150%;
+}
+
+h1 {
+	font-size: 24px;
+}
+
+h3 {
+	font-size: 18px;
+}
+
+p {
+	font-size: 12px
+}
+
+.pic{
+	width: 300px;
+}
+
+.lefty, .righty {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.lefty {
+	float: left;
+	margin-right: 20px;
+}
+
+.righty {
+	float: left;
+	margin-left: 20px;
+}
